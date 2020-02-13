@@ -15,7 +15,14 @@ end
 def grade(level)
 @roster[level].sort
   end
-
+ def sort
+    sorted_roster = {}
+    self.roster.keys.sort.each do |key|
+      sorted_roster[key] = self.roster[key].sort
+    end
+    sorted_roster
+  end
+end
 
  
   
