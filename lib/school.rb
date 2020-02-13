@@ -17,7 +17,7 @@ def grade(level)
   end
 end 
 
- School.new 
+ School.roster
   
   
   
