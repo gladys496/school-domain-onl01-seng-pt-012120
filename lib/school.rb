@@ -15,10 +15,7 @@ end
 def grade(level)
 @roster[level].sort
   end
-def sort
-    @roster.each do |key, value|
-      value.sort
-  end
+
 end 
   
   
