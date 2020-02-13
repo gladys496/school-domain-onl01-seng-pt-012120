@@ -15,9 +15,9 @@ end
 def grade(level)
 @roster[level].sort
   end
-
+@roster.name.collect
 end 
-  
+  end 
   
   
   
