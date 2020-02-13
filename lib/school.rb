@@ -17,7 +17,7 @@ def grade(level)
   end
 end 
 
-school = School.new 
+ School.new 
   
   
   
